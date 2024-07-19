@@ -1,0 +1,29 @@
+/* body{
+    background-color: aliceblue;
+    color: black;
+} */
+body {
+    background: linear-gradient(to bottom, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #138808 66%);
+    color: black;
+    margin: 0; /* To remove default margin */
+    padding: 0; /* To remove default padding */
+    /* height: 100vh; To make sure the gradient covers the full height */
+  }
+
+
+#display{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-weight: 900 ;
+    font-size: 50px;
+
+    /* flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+/* body{
+    background-color: #971c1c;
+} */
